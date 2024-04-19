@@ -36,7 +36,7 @@ header p {
     font-size: 1.5em; /* Increases the font size of the paragraph */
 }
 
-button {
+.download-button {
     background-color: #DF353D;
     color: white;
     border: none;
@@ -47,8 +47,10 @@ button {
     width: 350px; /* Increased width */
     margin-top: 50px; /* Adds vertical distance between the button and the text above */
     margin-left: 20px;
+    text-align: center;
+    display: inline-block; /* Ensures proper sizing and clickable area */
+    text-decoration: none; /* Removes underline from links */
 }
-
 /* Rest of the CSS remains the same */
 
 
